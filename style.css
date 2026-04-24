@@ -104,6 +104,19 @@ body {
 
 .hero-hint { margin-top: 1rem; font-size: .85rem; color: var(--gray-4); }
 
+.announcements-link {
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .75rem 1.5rem;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: .75rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background .25s, border-color .25s;
+}
+.announcements-link:hover { background: rgba(255,255,255,.1); border-color: rgba(239,68,68,.3); }
+
 /* ── Sections ── */
 .features-section, .discord-section { position: relative; z-index: 1; padding: 6rem 1rem; }
 
